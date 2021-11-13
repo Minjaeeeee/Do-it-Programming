@@ -1,6 +1,5 @@
 //예제를 불러와서 매개변수를 활용한 사칙연산 계산기 만들기
 
-
 public class FunctionCalTest {
 
 	public static void main(String[] args) {
