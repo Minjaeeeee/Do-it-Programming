@@ -24,6 +24,7 @@ public class Student  //Student 클래스
 
         System.out.println(studentAhn.studentName); //스튜던트의 안 이라는 
         System.out.println(studentAhn.getStudentName()); //이름을 반환한다!
+        
     }
 }
 
