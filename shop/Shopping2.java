@@ -19,5 +19,6 @@ public class Shopping2
         System.out.println(orderMain.orderThingNumber);
         System.out.println(orderMain.orderHomeAdress);
 
+        
     }
 }
