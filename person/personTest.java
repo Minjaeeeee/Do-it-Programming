@@ -7,3 +7,4 @@ public class personTest //생성자를 생성
         person personLee = new person(); //생성자를 만든다!
     }    
 }
+ 
