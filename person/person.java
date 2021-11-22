@@ -6,3 +6,4 @@ public class person
     float height;
     float weight;
 }
+ 
