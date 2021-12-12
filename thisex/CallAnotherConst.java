@@ -27,3 +27,4 @@ public class CallAnotherConst
         System.out.println(noName.age); //위에랑 같다.
     }
 }
+ 
