@@ -28,4 +28,4 @@ public class Student
     {
         System.out.println(studentName + "님의 남은 돈은" + money + "입니다.");
     }
-}
+} 
