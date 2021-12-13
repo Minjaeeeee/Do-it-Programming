@@ -18,4 +18,4 @@ public class TakeTrans
         tomas.showInfo(); 
         subwayGreen.showInfo();
     }
-}
+} 
