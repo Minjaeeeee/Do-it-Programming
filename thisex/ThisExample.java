@@ -29,4 +29,4 @@ public class ThisExample  //메인!
         bDay.printThis();
 
     }
-}
+} 
