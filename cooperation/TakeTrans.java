@@ -15,7 +15,7 @@ public class TakeTrans
 
         Subway subwayGreen = new Subway("2호선"); //전철 노선 이름
         tomas.takeSubway(subwayGreen);
-        tomas.showInfo();
+        tomas.showInfo(); 
         subwayGreen.showInfo();
     }
 }
