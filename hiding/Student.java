@@ -16,3 +16,4 @@ public class Student {
         this.studentName = studentName; //앞에 get()메서드에서 값을 가져왔으니 set으로 다시 값을 지정해주는 것이다!
     }
 }
+ 
