@@ -17,7 +17,7 @@ public class StudentNumberProgram
     public String getStudentName() //불러오는거
     {
         return studentName;
-    }
+    } 
 
     public void setStudentName(String name) //이게 저장하는거!
     {
