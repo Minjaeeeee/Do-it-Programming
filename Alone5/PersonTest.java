@@ -9,9 +9,10 @@ public class PersonTest {
 		person.isMarried = true;
 		person.numberOfChildren = 3;
 		
-		System.out.println("³ªÀÌ :" + person.age);
-		System.out.println("ÀÌ¸§ :" + person.name);
-		System.out.println("°áÈ¥ ¿©ºÎ :" + person.isMarried);
-		System.out.println("ÀÚ³à ¼ö :" + person.numberOfChildren);
+		System.out.println("ë‚˜ì´ :" + person.age);
+		System.out.println("ì´ë¦„ :" + person.name);
+		System.out.println("ê²°í˜¼ ì—¬ë¶€ :" + person.isMarried);
+		System.out.println("ìë…€ ìˆ˜ :" + person.numberOfChildren);
 	}
 }
+ 
