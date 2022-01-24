@@ -12,4 +12,4 @@ public class CoffeTest
         kim.VisitBeanCoffee(bcoffee,4500);
     }
    
-}
+} 
