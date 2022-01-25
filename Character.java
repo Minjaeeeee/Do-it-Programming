@@ -1,7 +1,7 @@
 /*
 public class Character  // 1분 복습 문제
 {
-    public static void main(String[ ] args)
+    public static void main(String[ ] args) 
     {
         char ch1 = 'Z';
         System.out.println(ch1);
