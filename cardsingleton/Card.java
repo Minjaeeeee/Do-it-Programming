@@ -21,3 +21,4 @@ public class Card
        Card.cardNum = cardNum;
    }
 }
+ 
