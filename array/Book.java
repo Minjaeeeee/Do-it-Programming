@@ -38,7 +38,7 @@ public class Book
     public void showBookInfo()
     {
         System.out.println(bookName + "," + author);
-    }
+    } 
 }
 
 //생략한 부분은 없어도 정상 출력은 됩니다!.
