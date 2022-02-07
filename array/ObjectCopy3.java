@@ -43,6 +43,6 @@ public class ObjectCopy3
         for(int i=0; i<bookArray2.length; i++)
         {
             bookArray2[i].showBookInfo();
-        }
+        } 
     }
 }
