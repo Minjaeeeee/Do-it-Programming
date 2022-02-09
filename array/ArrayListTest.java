@@ -28,6 +28,6 @@ public class ArrayListTest
             book.showBookInfo();
         }
     }
-}
+} 
 
 //여기서 참고해야 할 것은 get,add,remove등등 이런것들은 import에서 선정되는 arraylist의 메서드 이므로 선언을 안해주셔도 괜찮습니다.
