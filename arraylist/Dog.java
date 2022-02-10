@@ -33,6 +33,5 @@ public class Dog //강아지 클래스
 
     public String showDogInfo()
     {
-        return name + "," + type;
-    }
+        return name + "," + type; 
 }
