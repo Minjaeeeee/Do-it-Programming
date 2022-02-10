@@ -26,3 +26,4 @@ public class Subject  //학생들의 총 점수 합계의 클래스를 생성합
         this.scorePoint = scorePoint;
     }
 }
+ 
