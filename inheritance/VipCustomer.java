@@ -19,3 +19,4 @@ public class VipCustomer extends Customer //변수를 상속받습니다.
         return agentID;
     }
 }
+ 
