@@ -53,6 +53,6 @@ public class Customer
     public void setCustomerGrade(String customerGrade)
     {
         this.customerGrade =customerGrade;
-    }
+    } 
 
 }
