@@ -6,7 +6,7 @@ public class Character  // 1분 복습 문제
         char ch1 = 'Z';
         System.out.println(ch1);
         System.out.println((int)ch1);
-
+ 
         char ch2 = 38; //문자 66은 아스키 코드로 변환
         System.out.println(ch2);
        
