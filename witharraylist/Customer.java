@@ -1,4 +1,5 @@
-package inheritance;
+package witharraylist;
+
 
 public class Customer
 {
@@ -8,15 +9,27 @@ public class Customer
     int bonusPoint; 
     double bonusRatio;
 
+    public Customer()
+    {
+        initCustomer();
+    }
+
+
     public Customer(int customerID, String customerName)
     {
         this.customerID = customerID;
         this.customerName = customerName;
         customerGrade="SILVER";
         bonusRatio = 0.01;
-       
+        initCustomer();
     }
 
+    private void initCustomer()
+    {
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
+    }
+    
     public int calcPrice(int price)
     {
         bonusPoint += price * bonusRatio;
@@ -25,7 +38,7 @@ public class Customer
 
     public String showCustomerInfo()// 怨좉컼�쓽 �젙蹂� 異쒕젰.
     {
-        return customerName + "�떂�쓽 �벑湲됱�" + customerGrade + "�씠硫�, 蹂대꼫�뒪 �룷�씤�듃�뒗" + bonusPoint + "�엯�땲�떎";
+        return customerName + " 님의 등급은 " + customerGrade + "이며 보너스 포인트는" + bonusPoint + "입니다.";
     }
 
     public int getCustomerID()
@@ -62,42 +75,3 @@ public class Customer
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // public Customer() //�뵒�뤃�듃 �깮�꽦�옄, 怨좉컼�씠 �븳紐� �깉濡� �깮湲멸꼍�슦 湲곕낯�벑湲됱� �떎踰�, �씪�떚�삤�뒗 1%濡� 吏��젙!
-    // { 
-    //     customerGrade = "SILVER";
-    //     bonusRatio = 0.01;
-    // }
-
-    
