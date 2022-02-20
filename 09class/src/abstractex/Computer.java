@@ -1,18 +1,19 @@
 package abstractex;
 
-//abstract: Ãß»ó¸Ş¼­µå¸¦ ¸¸µì´Ï´Ù.
+//abstract: ì¶”ìƒë©”ì„œë“œë¥¼ ë§Œë“­ë‹ˆë‹¤.
 public abstract class Computer 
 {
-	public abstract void display(); //¿À·ù¹ß»ıÇÕ´Ï´Ù. Ãß»ó¸Ş¼­µåÀÔ´Ï´Ù.
-	public abstract void typing(); //¿À·ù ¹ß»ıÇÕ´Ï´Ù. Ãß»ó¸Ş¼­µåÀÔ´Ï´Ù.
+	public abstract void display(); //ì˜¤ë¥˜ë°œìƒí•©ë‹ˆë‹¤. ì¶”ìƒë©”ì„œë“œì…ë‹ˆë‹¤.
+	public abstract void typing(); //ì˜¤ë¥˜ ë°œìƒí•©ë‹ˆë‹¤. ì¶”ìƒë©”ì„œë“œì…ë‹ˆë‹¤.
 	
 	public void turnOn()   
 	{
-		System.out.println("Àü¿øÀ» ÄÕ´Ï´Ù");
+		System.out.println("ì „ì›ì„ ì¼­ë‹ˆë‹¤");
 	}
 	
 	public void turnOff()
 	{
-		System.out.println("Àü¿øÀ» ÄÕ´Ï´Ù.");
+		System.out.println("ì „ì›ì„ ì¼­ë‹ˆë‹¤.");
 	}
 }
+ 
