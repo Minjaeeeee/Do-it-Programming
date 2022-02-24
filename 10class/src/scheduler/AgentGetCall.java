@@ -6,12 +6,12 @@ public class AgentGetCall implements Scheduler
 	@Override
 	public void getNextCall() 
 	{
-		System.out.println("»ó´ã¿øÀÌ ´ÙÀ½ ÀüÈ­ ¿äÃ»");
+		System.out.println("ìƒë‹´ì›ì´ ë‹¤ìŒ ì „í™” ìš”ì²­");
 	}
 
 	@Override
 	public void sendCallToAgent() {
-		System.out.println("»ó´ã¿øÀÌ ÀüÈ­ »ó´ãÀ» °¡Á® °¬½À´Ï´Ù.");
+		System.out.println("ìƒë‹´ì›ì´ ì „í™” ìƒë‹´ì„ ê°€ì ¸ ê°”ìŠµë‹ˆë‹¤.");
 	}
-
+ 
 }
