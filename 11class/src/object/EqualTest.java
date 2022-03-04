@@ -16,6 +16,7 @@ class Student
 		return studentId + "," + studentName;
 	}
 	
+	
 	public class EqualsTest
 	{
 		public static void main(String[] args)
