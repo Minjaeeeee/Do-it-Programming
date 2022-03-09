@@ -9,6 +9,7 @@ public class StringEquals
 		String str2 = new String("abc");
 		
 		System.out.println(str1==str2);
-		System.out.println(str1.equals(str2)); //str1�� 2�� �񱳸� �ϴ� �̴ϴ�.
+		System.out.println(str1.equals(str2)); //str1°ú 2¸¦ ºñ±³¸¦ ÇÏ´Â °Ì´Ï´Ù.
 	}
 }
+ 
