@@ -9,3 +9,4 @@ public class Define
 	public static final double PI = 3.14;
 	public static final String GOOD_MORNING = "Good Morning!";
 }
+  
