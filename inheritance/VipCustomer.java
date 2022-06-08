@@ -8,7 +8,7 @@ public class VipCustomer extends Customer
     
     public VipCustomer(int customerID, String customerName, int agentID)
     {
-        super(customerID, customerName); 
+        super(customerID, customerName); //상위클래스 생성자를 호출!
         customerGrade = "VIP"; 
         bonusRatio = 0.05;
         saleRatio = 0.1;
