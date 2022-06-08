@@ -2,30 +2,29 @@ package inheritance;
 
 public class Customer
 {
-    protected int customerID; 
-    protected String customerName; 
-    protected String customerGrade; 
-    int bonusPoint; 
-    double bonusRatio;
+    privated int customerID; //고객의 아이디 
+    privated String customerName; // 고객의 이름 
+    privated String customerGrade; // 고객의 등급 
+    int bonusPoint; //보너스 포인트
+    double bonusRatio; //적립 비율
 
-    public Customer(int customerID, String customerName)
+    public Customer(int customerID, String customerName) //생성자(2개의 인자를 받고있다)
     {
         this.customerID = customerID;
         this.customerName = customerName;
-        customerGrade="SILVER";
-        bonusRatio = 0.01;
-       
+        customerGrade="SILVER"; //기본 등급이 실버이다(인스턴스가 생성될때 기본 등급 실버)
+        bonusRatio = 0.01; //기본 보너스 포인트 기본 적립비율
     }
 
-    public int calcPrice(int price)
+    public int calcPrice(int price) //보너스 포인트 계산
     {
         bonusPoint += price * bonusRatio;
         return price;
     }
 
-    public String showCustomerInfo()// 怨좉컼�쓽 �젙蹂� 異쒕젰.
+    public String showCustomerInfo()
     {
-        return customerName + "�떂�쓽 �벑湲됱�" + customerGrade + "�씠硫�, 蹂대꼫�뒪 �룷�씤�듃�뒗" + bonusPoint + "�엯�땲�떎";
+        return customerName + " 님의 등급은" + customerGrade + "이며, 보너스포인트는" + bonusPoint + "입니다.";
     }
 
     public int getCustomerID()
@@ -94,10 +93,6 @@ public class Customer
 
 
 
-    // public Customer() //�뵒�뤃�듃 �깮�꽦�옄, 怨좉컼�씠 �븳紐� �깉濡� �깮湲멸꼍�슦 湲곕낯�벑湲됱� �떎踰�, �씪�떚�삤�뒗 1%濡� 吏��젙!
-    // { 
-    //     customerGrade = "SILVER";
-    //     bonusRatio = 0.01;
-    // }
+   
 
     
