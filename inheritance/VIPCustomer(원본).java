@@ -1,12 +1,13 @@
 public class VIPCustomer
 {
-  private int customerID; //고객의 아이디 
-  private String customerName; // 고객의 이름 
-  private String customerGrade; // 고객의 등급 
-  int bonusPoint; //보너스 포인트
+  int customerID; //고객의 아이디 
+  String customerName; // 고객의 이름 
+  String customerGrade; // 고객의 등급                 < 위의 멤버 변수들은 Customer멤버변수와 같다!>
+  int bonusPoint; //보너스 포인트                      < 이를 상속으로 해결할 수 있다!>
   double bonusRatio; //적립 비율
   
-  private int agentID;
+  
+  int agentID;
   double saleRatio;
   
   public VIPCustomer()
