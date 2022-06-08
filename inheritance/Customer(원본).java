@@ -2,9 +2,9 @@ package inheritance;
 
 public class Customer
 {
-    privated int customerID; //고객의 아이디 
-    privated String customerName; // 고객의 이름 
-    privated String customerGrade; // 고객의 등급 
+    int customerID; //고객의 아이디 
+    String customerName; // 고객의 이름 
+    String customerGrade; // 고객의 등급 
     int bonusPoint; //보너스 포인트
     double bonusRatio; //적립 비율
 
