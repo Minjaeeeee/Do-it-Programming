@@ -15,7 +15,7 @@ public class CompleteCalc extends Calculator
 			return num1/num2;
 		
 		else
-			return Calc.ERROR;
+			return Calc.ERROR; //num2ê°€ 0, ì¦‰ ë‚˜ëˆ„ëŠ” ìˆ˜ê°€ 0ì¸ ê²½ìš°ì— ëŒ€í•´ ì˜¤ë¥˜ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤!
 	}
 	
 	
@@ -27,7 +27,7 @@ public class CompleteCalc extends Calculator
 	
 	public void showInfo()
 	{
-		System.out.println("Calc ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ¿´½À´Ï´Ù.");   //CompleteCalc¿¡¼­ Ãß°¡·Î ±¸ÇöÇÑ ¸Ş¼­µå.
+		System.out.println("Calc ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ì˜€ìŠµë‹ˆë‹¤.");   //CompleteCalcì—ì„œ ì¶”ê°€ë¡œ êµ¬í˜„í•œ ë©”ì„œë“œ.
 	}
 
 	
