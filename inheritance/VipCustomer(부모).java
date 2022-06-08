@@ -9,7 +9,7 @@ public class VIPCustomer extends Customer
   {
     customerGrade = "VIP";
     bonusRatio = 0.05; //상위클래스에서 private 변수이므로 오류가 발생한다! 
-    //메서드 오버라이딩으로 해결이 가능하다!
+    //protected, 메서드 오버라이딩으로 해결이 가능하다!
     saleRatio = 0.1;
   }
   
