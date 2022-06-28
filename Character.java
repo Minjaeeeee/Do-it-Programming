@@ -42,7 +42,7 @@ public class Character   //문자형 연습
 
         char a2 = 65;
 
-        System.out.println((char)a);
+        System.out.println((char)a); 
         System.out.println((char)b);
         System.out.println(a2);
 
